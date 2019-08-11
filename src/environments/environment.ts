@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebaseConfig = {
+  firebase : {
   apiKey: "AIzaSyDlRLaG_7ZvU79y1aUYFCz6BfQV3gkNs1Y",
   authDomain: "angular-crud-13085.firebaseapp.com",
   databaseURL: "https://angular-crud-13085.firebaseio.com",
@@ -12,8 +12,8 @@ export const environment = {
   storageBucket: "angular-crud-13085.appspot.com",
   messagingSenderId: "884614242598",
   appId: "1:884614242598:web:75324d7ed7ec1fe7"
-};
-
+  },
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
